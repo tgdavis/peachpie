@@ -6,6 +6,7 @@
     <PackageTags>peachpie;library;mssql</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Peachpie PHP language MsSql library functions.</Description>
+    <TargetFrameworks>net7.0</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>

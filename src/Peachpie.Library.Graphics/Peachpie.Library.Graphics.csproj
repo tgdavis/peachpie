@@ -7,6 +7,7 @@
     <PackageTags>peachpie;library;image;gd2</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Peachpie PHP language library functions for image processing.</Description>
+    <TargetFrameworks>net7.0</TargetFrameworks>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0" />

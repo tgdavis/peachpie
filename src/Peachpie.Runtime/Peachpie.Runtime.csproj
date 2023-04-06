@@ -8,6 +8,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Peachpie application runtime.</Description>
     <RootNamespace>Pchp.Core</RootNamespace>
+    <TargetFrameworks>net7.0</TargetFrameworks>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\Peachpie.CodeAnalysis\Semantics\AccessMask.cs" Link="Dynamic\AccessMask.cs" />

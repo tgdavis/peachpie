@@ -8,6 +8,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Peachpie PHP language library functions.</Description>
     <RootNamespace>Pchp.Library</RootNamespace>
+    <TargetFrameworks>net7.0</TargetFrameworks>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Resources\abbreviations.txt" />

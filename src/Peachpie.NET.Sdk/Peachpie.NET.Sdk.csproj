@@ -13,6 +13,7 @@
     <GeneratePackageOnBuild Condition=" $(GeneratePackageOnBuild)=='' ">True</GeneratePackageOnBuild>
     <PackageOutputPath Condition=" '$(PackageOutputPath)'=='' ">$(MSBuildThisFileDirectory)../../.nugs</PackageOutputPath>
     <Description>The MSBuild SDK containing build targets and runtime.</Description>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(PackageOnlyBuild)' == 'true'">

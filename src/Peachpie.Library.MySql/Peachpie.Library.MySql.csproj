@@ -6,6 +6,7 @@
     <PackageTags>peachpie;library;mysql</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Peachpie PHP language MySql library functions.</Description>
+    <TargetFrameworks>net7.0</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
