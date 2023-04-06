@@ -987,7 +987,7 @@ namespace Pchp.Library
                 }
 
                 // when HTTP protocol requested, store responded headers into local variable $http_response_header:
-                if (stream.Wrapper.Scheme == HttpStreamWrapper.scheme && http_response_header != null)
+                if ((stream.Wrapper.Scheme == HttpStreamWrapper.scheme || stream.Wrapper.Scheme == HttpStreamWrapper.schemes) && http_response_header != null)
                 {
                     http_response_header.Value = stream.WrapperSpecificData as PhpArray;
                 }
